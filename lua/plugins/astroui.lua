@@ -9,7 +9,7 @@ return {
   ---@type AstroUIOpts
   opts = {
     -- change colorscheme
-    colorscheme = "astrodark",
+    colorscheme = "catppuccin",
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
     highlights = {
       init = { -- this table overrides highlights in all themes
@@ -270,4 +270,23 @@ return {
       },
     },
   },
+  -- { -- further customize the options set by the community
+  --   "catppuccin",
+  --   opts = {
+  --     colorscheme = "catppuccin",
+  --     integrations = {
+  --       sandwich = false,
+  --       noice = true,
+  --       mini = true,
+  --       leap = true,
+  --       markdown = true,
+  --       neotest = true,
+  --       cmp = true,
+  --       overseer = true,
+  --       lsp_trouble = true,
+  --       rainbow_delimiters = true,
+  --       indent_blankline = { enabled = true, colored_indent_levels = false },
+  --     },
+  --   },
+  -- },
 }

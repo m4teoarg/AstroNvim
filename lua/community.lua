@@ -11,6 +11,7 @@ return {
   { import = "astrocommunity.recipes.heirline-vscode-winbar" },
   -- codesnap
   { import = "astrocommunity.media.codesnap-nvim" },
+  { import = "astrocommunity.colorscheme.catppuccin" },
   {
     "mistricky/codesnap.nvim",
     build = "make",
